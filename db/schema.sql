@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS techbuddy_db;
+DROP DATABASE IF EXISTS tech_buddy_db;
 
-CREATE DATABASE techbuddy_db;
+CREATE DATABASE tech_buddy_db;
