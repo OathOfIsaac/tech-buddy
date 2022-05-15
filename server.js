@@ -12,7 +12,7 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const hbs = exphbs.create({});
 
 const sess = {
-  secret: 'Super secret secret',
+  secret: 'process.env.DB_SECRET',
   cookie: {},
   resave: false,
   saveUninitialized: true,
