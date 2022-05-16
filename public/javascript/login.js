@@ -16,12 +16,16 @@ async function signupFormHandler(event) {
             headers: { 'Content-Type': 'application/json' }
         });
 
+        const res = await response.json();
+        console.log(res);
         if (response.ok) {
-            console.log('success');
+            document.location.replace("/");
         } else {
             alert(response.statusText);
         }
     }
 }
+
+
 
 document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);

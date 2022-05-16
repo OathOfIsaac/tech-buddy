@@ -1,4 +1,8 @@
 {
+  "name": "tech-buddy",
+  "version": "1.0.0",
+  "description": "AS A developer who writes about tech I WANT a CMS-style blog site SO THAT I can publish articles, blog posts, and my thoughts and opinions",
+  "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.3",
@@ -11,5 +15,24 @@
     "mysql2": "^2.3.3",
     "node": "^17.7.2",
     "sequelize": "^6.19.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OathOfIsaac/tech-buddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OathOfIsaac/tech-buddy/issues"
+  },
+  "homepage": "https://github.com/OathOfIsaac/tech-buddy#readme"
 }
